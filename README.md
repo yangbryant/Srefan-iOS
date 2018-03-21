@@ -15,19 +15,17 @@
 	- [Core Data](#core-data)
 * [图表](#charts)
 * [数据库](#database)
-	- [硬件](#hardware)
+* [硬件](#hardware)
 	- [动作](#motion)
 	- [蓝牙](#bluetooth)
 	- [位置](#location)
-* [iBeacon](#ibeacon)
-* [HUD](#hud)
+	- [iBeacon](#ibeacon)
 * [事件总线（ EventBus ）](#eventbus)
 * [文件](#files)
 * [格式解析](#format)
 	- [JSON](#json)
 	- [CSV](#csv)
 	- [XML&HTML](#xml&html)
-* [布局](#layout)
 * [日志](#logging)
 * [地图](#maps)
 * [多媒体](#media)
@@ -48,12 +46,13 @@
 * [推送通知](#push-notifications)
 * [Passbook](#passbook)
 * [权限](#permissions)
-* [文本](#text)
 * [URL Scheme](#url-scheme)
 * [UI](#ui)
+	- [布局](#layout)
 	- [Table相关](#tableview)
 	- [HUD与Toast](#hud-and-toast)
 	- [键盘与输入法](#keyboard)
+	- [动画](#animation)
 * [分析](#analytics)
 * [支付](#payments)
 * [产品化工具](#products)
@@ -61,7 +60,6 @@
 * [安全](#security)
 * [区块链](#blockchain)
 * [逆向](#reverse)
-* [动画](#animation)
 * [数据结构/算法](#algorithm)
 * [机器学习](#machine-learning)
 * [App更新提示](#app-update-tips)
@@ -79,6 +77,10 @@
 # <a name="database"></a>数据库
 
 * [OHMySQL](https://github.com/oleghnidets/OHMySQL): 一款 App 直连后台 MySQL 数据库的库.
+
+# <a name="logging"></a>日志
+
+* [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack): 一个快速简单好用的日志框架.
 
 # <a name="media"></a>多媒体
 
@@ -116,6 +118,6 @@
 
 * [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager): 解决弹起键盘遮盖输入框的问题的便捷方案.
  
-# <a name="animation"></a>动画
+### <a name="animation"></a>动画
 
 * [lottie-ios](https://github.com/airbnb/lottie-ios): Airbnb开源的将AE动画效果转化为iOS原生动画的库.
