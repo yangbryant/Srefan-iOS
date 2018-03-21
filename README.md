@@ -42,7 +42,7 @@
 	- [二维码](#qrcode)
 * [消息](#messaging)
 * [网络](#networking)
-* [socket](#socket)
+* [Socket](#socket)
 * [IM](#IM)
 * [网络测试](#networking-test)
 * [推送通知](#push-notifications)
@@ -53,6 +53,7 @@
 * [UI](#ui)
 	- [Table相关](#tableview)
 	- [HUD与Toast](#hud-and-toast)
+	- [键盘与输入法](#keyboard)
 * [分析](#analytics)
 * [支付](#payments)
 * [产品化工具](#products)
@@ -84,7 +85,16 @@
 ### <a name="image"></a>图片
 
 * [LKImageKit](https://github.com/Tencent/LKImageKit): 腾讯开源的一个高性能的图片框架.包括了图片控件,图片下载,内存缓存,磁盘缓存,图片解码,图片处理等一系列能力.
+* [SDWebImage](https://github.com/rs/SDWebImage): 一款知名高效的图片加载框架,其使用内存缓存,磁盘缓存和下载的方式加快了图片处理的效率.
+
+# <a name="networking"></a>网络
+
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking): 一个轻量级的iOS网络通信类库.
     
+# <a name="socket"></a>Socket
+
+* [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket): 基于BSD-Socket的IM框架,强大的异步套接字库,向上封装出简单易用ObjC接口.
+
 # <a name="ui"></a>UI
 
 * [YYKit](https://github.com/ibireme/YYKit): YYKit 是一组功能丰富的iOS组件,包含 [YYModel](https://github.com/ibireme/YYModel) [YYCache](https://github.com/ibireme/YYCache) [YYImage](https://github.com/ibireme/YYImage) [YYWebImage](https://github.com/ibireme/YYWebImage) [YYText](https://github.com/ibireme/YYText) [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) [YYCategories](https://github.com/ibireme/YYCategories) 独立组件.
@@ -94,8 +104,18 @@
 
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet): UITableView/UICollectionView空数据提示内容显示的控件.
 * [IGListKit](https://github.com/Instagram/IGListKit): 一款 Instagram 工程师开发的快速构建且滑动流畅的 CollectView 框架.
+* [STDTableView](https://github.com/XuQibin/STDTableView): 基于 UITableView 的封装,实现了一套 High Level 的 API.
 
 ### <a name="hud-and-toast"></a>HUD与Toast
 
 * [YBHud](https://github.com/YahyaBagia/YBHud): 一个简单的点动画, 轻量级的指示器 HUD.
+* [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD): 一个进度加载的第三方控件.
+* [MBProgressHUD](https://github.com/jdg/MBProgressHUD): 另外一个非常流行的进度加载的第三方控件.
+
+### <a name="keyboard"></a>键盘与输入法
+
+* [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager): 解决弹起键盘遮盖输入框的问题的便捷方案.
  
+# <a name="animation"></a>动画
+
+* [lottie-ios](https://github.com/airbnb/lottie-ios): Airbnb开源的将AE动画效果转化为iOS原生动画的库.
