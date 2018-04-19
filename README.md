@@ -142,6 +142,7 @@
 
 * [LKImageKit](https://github.com/Tencent/LKImageKit): 腾讯开源的一个高性能的图片框架.包括了图片控件,图片下载,内存缓存,磁盘缓存,图片解码,图片处理等一系列能力.
 * [SDWebImage](https://github.com/rs/SDWebImage): 一款知名高效的图片加载框架,其使用内存缓存,磁盘缓存和下载的方式加快了图片处理的效率.
+* [RSKImageCropper](https://github.com/ruslanskorb/RSKImageCropper): 一个iOS的图片切片器,适用于头像的场景.
 
 ### <a name="audio"></a>音频
 
