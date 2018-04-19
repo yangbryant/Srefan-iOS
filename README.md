@@ -47,12 +47,16 @@
 * [Passbook](#passbook)
 * [权限](#permissions)
 * [URL Scheme](#url-scheme)
+* [文本](#text)
 * [UI](#ui)
 	- [布局](#layout)
+	- [Tabbar相关](#tabbar)
 	- [Table相关](#tableview)
 	- [HUD与Toast](#hud-and-toast)
+	- [PopView](#pop)
 	- [键盘与输入法](#keyboard)
 	- [动画](#animation)
+	- [定制化控件](#customized_widget)
 * [分析](#analytics)
 * [支付](#payments)
 * [产品化工具](#products)
@@ -93,6 +97,8 @@
 
 # <a name="hardware"></a>硬件
 
+* [GBDeviceInfo](https://github.com/lmirosevic/GBDeviceInfo): 在运行时检测当前iOS或macOS设备硬件软件信息的第三个框架.
+
 ### <a name="motion"></a>动作
 
 ### <a name="bluetooth"></a>蓝牙
@@ -116,6 +122,8 @@
 ### <a name="csv"></a>CSV
 
 ### <a name="xml&html"></a>XML&HTML
+
+* [hpple](https://github.com/topfunky/hpple): 一款使用XPathQuery库解析HTML的ObjC封装的第三方框架.
 
 # <a name="logging"></a>日志
 
@@ -179,6 +187,12 @@
 
 # <a name="url-scheme"></a>URL Scheme
 
+# <a name="text"></a>文本
+
+* [TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel): 一个富文本的UILabel替代方案,支持链接,数据检测,属性等.
+* [RegexKitLite](https://github.com/wezm/RegexKitLite): 一个正则表达式的ObjC框架.
+* [MitRegx](https://github.com/mcmengchen/MitRegx):用来校验手机号格式,密码格式,验证码格式和Email格式的ObjC框架.
+
 # <a name="ui"></a>UI
 
 * [YYKit](https://github.com/ibireme/YYKit): YYKit是一组功能丰富的iOS组件,包含 [YYModel](https://github.com/ibireme/YYModel) [YYCache](https://github.com/ibireme/YYCache) [YYImage](https://github.com/ibireme/YYImage) [YYWebImage](https://github.com/ibireme/YYWebImage) [YYText](https://github.com/ibireme/YYText) [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) [YYCategories](https://github.com/ibireme/YYCategories) 独立组件.
@@ -186,26 +200,51 @@
 
 ### <a name="layout"></a>布局
 
+* [Masonry](https://github.com/SnapKit/Masonry): 应用最广的简单方便的自动布局框架.
+
+### <a name="tabbar"></a>Tabbar相关
+
+* [CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController): 一个自定义的TabBarController框架,支持高度自定义,功能强大,使用起来非常方便.
+
 ### <a name="tableview"></a>Table相关
 
-* [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet): UITableView/UICollectionView空数据提示内容显示的控件.
 * [IGListKit](https://github.com/Instagram/IGListKit): 一款Instagram工程师开发的快速构建且滑动流畅的CollectView框架.
 * [STDTableView](https://github.com/XuQibin/STDTableView): 基于UITableView的封装,实现了一套High Level的API.
 * [MJRefresh](https://github.com/CoderMJLee/MJRefresh): 一款简单好用的下拉刷新的第三方框架.
+* [ODRefreshControl](https://github.com/Sephiroth87/ODRefreshControl): 一款对UIScrollView下拉刷新的控件.
+* [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet): UITableView/UICollectionView空数据提示内容显示的控件.
+* [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTableViewPlaceHolder): 一行代码完成'空TableView占位视图'管理的控件.
 
 ### <a name="hud-and-toast"></a>HUD与Toast
 
 * [YBHud](https://github.com/YahyaBagia/YBHud): 一个简单的点动画,轻量级的指示器HUD.
 * [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD): 一个进度加载的第三方控件.
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD): 另外一个非常流行的进度加载的第三方控件.
+* [RKDropdownAlert](https://github.com/cwRichardKim/RKDropdownAlert): 一个非常简单的向下弹出Alert视图的控件,灵感来自于SVProgressHUD.
+* [JDStatusBarNotification](https://github.com/calimarkus/JDStatusBarNotification): 一个简单,可定制的状态栏显示通知控件.
+* [CWStatusBarNotification](https://github.com/cezarywojcik/CWStatusBarNotification): 另外一个基于文本的状态栏通知控件.
+
+### <a name="pop"></a>PopView
+
+* [PSTAlertController](https://github.com/steipete/PSTAlertController): 向下兼容iOS7使用UIAlertController的第三方框架.
+* [MMPopupView](https://github.com/adad184/MMPopupView): 一款简单的创建PopUpView的Pop-Up控件.
 
 ### <a name="keyboard"></a>键盘与输入法
 
 * [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager): 解决弹起键盘遮盖输入框的问题的便捷方案.
- 
+* [TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding): 另外一个解决弹起键盘躲避文本框遮挡的通用方案.
+
 ### <a name="animation"></a>动画
 
 * [lottie-ios](https://github.com/airbnb/lottie-ios): Airbnb开源的将AE动画效果转化为iOS原生动画的库.
+* [JazzHands](https://github.com/IFTTT/JazzHands):一款简单的基于关键帧动画的框架,动画可以通过手势,scrollview,KVO和ReactiveCocoa控制.
+* [FXBlurView](https://github.com/nicklockwood/FXBlurView): 实现毛玻璃效果的View视图,目前该项目不再更新.
+
+### <a name="customized_widget"></a>定制化控件
+
+* [STPickerView](https://github.com/STShenZhaoliang/STPickerView): 一个多功能的选择器,有城市选择,日期选择和单数组源自定的功能,方便大家的使用,低耦合,易扩展.
+* [JKCountDownButton](https://github.com/shaojiankui/JKCountDownButton):iOS倒计时按钮,UIButton子类实现,常常用于注册等发送验证码的时候进行倒计时操作.
+* [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView): 一个比UIActivityIndicatorView更好看的显示加载进度的控件.
 
 # <a name="analytics"></a>分析
 
@@ -218,6 +257,10 @@
 * [DateTools](https://github.com/MatthewYork/DateTools): 一款ObjC中简化日期和时间处理的工具.
 
 # <a name="utility"></a>实用工具
+
+* [BlocksKit](https://github.com/BlocksKit/BlocksKit): Block实用工具,可以把用delegate实现的方法整合成了block的形式.
+* [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa): 具有函数式编程和响应式编程特性的iOS和OS X开发的新框架.
+* [SAMCategories](https://github.com/soffes/SAMCategories): 一个对Foundation和UIKit类别的有用的扩展集合.
 
 # <a name="security"></a>安全
 
