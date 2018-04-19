@@ -8,7 +8,6 @@
 ###  目录
 
 * [库和框架](#libraries-and-frameworks)
-* [动画](#animation)
 * [数据存储](#data-saved)
 	- [缓存](#cache)
 	- [序列化](#serialization)
@@ -70,11 +69,17 @@
 
 ---
 
+# <a name="libraries-and-frameworks"></a>库和框架
+
 # <a name="data-saved"></a>数据存储
 
 ### <a name="cache"></a>缓存
 
 * [YYCache](https://github.com/ibireme/YYCache): 高性能iOS缓存框架.
+
+### <a name="serialization"></a>序列化
+
+### <a name="core-data"></a>Core Data
 
 # <a name="charts"></a>图表
 
@@ -86,6 +91,18 @@
 * [OHMySQL](https://github.com/oleghnidets/OHMySQL): 一款App直连后台MySQL数据库的库.
 * [](https://github.com/realm/realm-cocoa): 一款移动数据库,可替换Core Data和SQLite.
 
+# <a name="hardware"></a>硬件
+
+### <a name="motion"></a>动作
+
+### <a name="bluetooth"></a>蓝牙
+
+### <a name="location"></a>位置
+
+### <a name="ibeacon"></a>iBeacon
+
+# <a name="eventbus"></a>事件总线（EventBus）
+
 # <a name="files"></a>文件
 
 * [ZipArchive](https://github.com/ZipArchive/ZipArchive): 一款针对iOS,macOS和tvOS的简单实用的压缩解压缩的第三方框架.
@@ -96,10 +113,15 @@
 
 * [JSONModel](https://github.com/jsonmodel/jsonmodel): 一个快速巧妙的创建JSON数据模型的库.
 
+### <a name="csv"></a>CSV
+
+### <a name="xml&html"></a>XML&HTML
 
 # <a name="logging"></a>日志
 
 * [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack): 一个快速简单好用的日志框架.
+
+# <a name="maps"></a>地图
 
 # <a name="browser"></a>浏览器
 
@@ -113,11 +135,28 @@
 * [LKImageKit](https://github.com/Tencent/LKImageKit): 腾讯开源的一个高性能的图片框架.包括了图片控件,图片下载,内存缓存,磁盘缓存,图片解码,图片处理等一系列能力.
 * [SDWebImage](https://github.com/rs/SDWebImage): 一款知名高效的图片加载框架,其使用内存缓存,磁盘缓存和下载的方式加快了图片处理的效率.
 
+### <a name="audio"></a>音频
+
 ### <a name="video"></a>视频
 
 * [ZFPlayer](https://github.com/renzifeng/ZFPlayer): 一款基于AVPlayer,支持竖屏,横屏(横屏可锁定屏幕方向),上下滑动调节音量、屏幕亮度，左右滑动调节播放进度的播放器.
 * [JPVideoPlayer](https://github.com/newyjp/JPVideoPlayer): 在UITableViewCell内自动播放在线视频和缓存视频.
+
+### <a name="stream"></a>流媒体
+
 * [LFLiveKit](https://github.com/LaiFengiOS/LFLiveKit): 一款开源的RTMP流SDK,支持H264和AAC硬解码,支持GPUImage Beauty,rtmp传输,弱网络丢帧,动态切换速率.
+
+### <a name="pdf"></a>PDF
+
+### <a name="GIF"></a>GIF
+
+### <a name="VR"></a>VR
+
+### <a name="AR"></a>AR
+
+### <a name="qrcode"></a>二维码
+
+# <a name="messaging"></a>消息
 
 # <a name="networking"></a>网络
 
@@ -128,10 +167,24 @@
 
 * [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket): 基于BSD-Socket的IM框架,强大的异步套接字库,向上封装出简单易用ObjC接口.
 
+# <a name="IM"></a>IM
+
+# <a name="networking-test"></a>网络测试
+
+# <a name="push-notifications"></a>推送通知
+
+# <a name="passbook"></a>Passbook
+
+# <a name="permissions"></a>权限
+
+# <a name="url-scheme"></a>URL Scheme
+
 # <a name="ui"></a>UI
 
 * [YYKit](https://github.com/ibireme/YYKit): YYKit是一组功能丰富的iOS组件,包含 [YYModel](https://github.com/ibireme/YYModel) [YYCache](https://github.com/ibireme/YYCache) [YYImage](https://github.com/ibireme/YYImage) [YYWebImage](https://github.com/ibireme/YYWebImage) [YYText](https://github.com/ibireme/YYText) [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) [YYCategories](https://github.com/ibireme/YYCategories) 独立组件.
 * [QMUI](https://github.com/QMUI/QMUI_iOS): QMUI iOS是一个致力于提高项目UI开发效率的解决方案.
+
+### <a name="layout"></a>布局
 
 ### <a name="tableview"></a>Table相关
 
@@ -154,6 +207,28 @@
 
 * [lottie-ios](https://github.com/airbnb/lottie-ios): Airbnb开源的将AE动画效果转化为iOS原生动画的库.
 
+# <a name="analytics"></a>分析
+
+# <a name="payments"></a>支付
+
+# <a name="products"></a>产品化工具
+
 # <a name="other"></a>其他
 
 * [DateTools](https://github.com/MatthewYork/DateTools): 一款ObjC中简化日期和时间处理的工具.
+
+# <a name="utility"></a>实用工具
+
+# <a name="security"></a>安全
+
+# <a name="blockchain"></a>区块链
+
+# <a name="reverse"></a>逆向
+
+# <a name="algorithm"></a>数据结构/算法
+
+# <a name="machine-learning"></a>机器学习
+
+# <a name="app-update-tips"></a>App更新提示
+
+# <a name="test-and-debug"></a>测试调试
