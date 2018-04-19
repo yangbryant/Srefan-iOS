@@ -86,6 +86,10 @@
 * [OHMySQL](https://github.com/oleghnidets/OHMySQL): 一款App直连后台MySQL数据库的库.
 * [](https://github.com/realm/realm-cocoa): 一款移动数据库,可替换Core Data和SQLite.
 
+# <a name="files"></a>文件
+
+* [ZipArchive](https://github.com/ZipArchive/ZipArchive): 一款针对iOS,macOS和tvOS的简单实用的压缩解压缩的第三方框架.
+
 # <a name="format"></a>格式解析
 
 ### <a name="json"></a>JSON
