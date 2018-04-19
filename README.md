@@ -28,6 +28,7 @@
 	- [XML&HTML](#xml&html)
 * [日志](#logging)
 * [地图](#maps)
+* [浏览器](#browser)
 * [多媒体](#media)
 	- [图片](#image)
 	- [音频](#audio)
@@ -56,6 +57,7 @@
 * [分析](#analytics)
 * [支付](#payments)
 * [产品化工具](#products)
+* [其他](#other)
 * [实用工具](#utility)
 * [安全](#security)
 * [区块链](#blockchain)
@@ -74,13 +76,31 @@
 
 * [YYCache](https://github.com/ibireme/YYCache): 高性能iOS缓存框架.
 
+# <a name="charts"></a>图表
+
+* [AAChartKit](https://github.com/AAChartModel/AAChartKit): 流行的开源前端图表库Highcharts的基础上,封装的面向对象的,一组简单易用,极其精美的图表绘制控件.
+
 # <a name="database"></a>数据库
 
+* [FMDB](https://github.com/ccgus/fmdb): 基于SQLite封装的Cocoa/ObjC数据库的第三方框架.
 * [OHMySQL](https://github.com/oleghnidets/OHMySQL): 一款App直连后台MySQL数据库的库.
+* [](https://github.com/realm/realm-cocoa): 一款移动数据库,可替换Core Data和SQLite.
+
+# <a name="format"></a>格式解析
+
+### <a name="json"></a>JSON
+
+* [JSONModel](https://github.com/jsonmodel/jsonmodel): 一个快速巧妙的创建JSON数据模型的库.
+
 
 # <a name="logging"></a>日志
 
 * [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack): 一个快速简单好用的日志框架.
+
+# <a name="browser"></a>浏览器
+
+* [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser): 一款应用内的Web浏览器模块.
+* [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge): 用于在WKWebViews/UIWebViews/WebViews中的ObjC和JavaScript之间发送消息的iOS/OSX桥接器.
 
 # <a name="media"></a>多媒体
 
@@ -89,10 +109,16 @@
 * [LKImageKit](https://github.com/Tencent/LKImageKit): 腾讯开源的一个高性能的图片框架.包括了图片控件,图片下载,内存缓存,磁盘缓存,图片解码,图片处理等一系列能力.
 * [SDWebImage](https://github.com/rs/SDWebImage): 一款知名高效的图片加载框架,其使用内存缓存,磁盘缓存和下载的方式加快了图片处理的效率.
 
+### <a name="video"></a>视频
+
+* [ZFPlayer](https://github.com/renzifeng/ZFPlayer): 一款基于AVPlayer,支持竖屏,横屏(横屏可锁定屏幕方向),上下滑动调节音量、屏幕亮度，左右滑动调节播放进度的播放器.
+* [JPVideoPlayer](https://github.com/newyjp/JPVideoPlayer): 在UITableViewCell内自动播放在线视频和缓存视频.
+* [LFLiveKit](https://github.com/LaiFengiOS/LFLiveKit): 一款开源的RTMP流SDK,支持H264和AAC硬解码,支持GPUImage Beauty,rtmp传输,弱网络丢帧,动态切换速率.
+
 # <a name="networking"></a>网络
 
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking): 一个轻量级的iOS网络通信类库.
-* [YTKNetwork](https://github.com/yuantiku/YTKNetwork): 基于AFNetworking封装的iOS网络库, 其实现了一套High Level的API, 提供了更高层次的网络访问抽象.
+* [YTKNetwork](https://github.com/yuantiku/YTKNetwork): 基于AFNetworking封装的iOS网络库,其实现了一套High Level的API,提供了更高层次的网络访问抽象.
     
 # <a name="socket"></a>Socket
 
@@ -108,10 +134,11 @@
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet): UITableView/UICollectionView空数据提示内容显示的控件.
 * [IGListKit](https://github.com/Instagram/IGListKit): 一款Instagram工程师开发的快速构建且滑动流畅的CollectView框架.
 * [STDTableView](https://github.com/XuQibin/STDTableView): 基于UITableView的封装,实现了一套High Level的API.
+* [MJRefresh](https://github.com/CoderMJLee/MJRefresh): 一款简单好用的下拉刷新的第三方框架.
 
 ### <a name="hud-and-toast"></a>HUD与Toast
 
-* [YBHud](https://github.com/YahyaBagia/YBHud): 一个简单的点动画, 轻量级的指示器HUD.
+* [YBHud](https://github.com/YahyaBagia/YBHud): 一个简单的点动画,轻量级的指示器HUD.
 * [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD): 一个进度加载的第三方控件.
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD): 另外一个非常流行的进度加载的第三方控件.
 
@@ -122,3 +149,7 @@
 ### <a name="animation"></a>动画
 
 * [lottie-ios](https://github.com/airbnb/lottie-ios): Airbnb开源的将AE动画效果转化为iOS原生动画的库.
+
+# <a name="other"></a>其他
+
+* [DateTools](https://github.com/MatthewYork/DateTools): 一款ObjC中简化日期和时间处理的工具.
