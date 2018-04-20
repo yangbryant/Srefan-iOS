@@ -51,7 +51,7 @@
 * [UI](#ui)
 	- [布局](#layout)
 	- [日期与时间](#date_and_time)
-	- [引导页](#tutorial_pages)
+	- [启动页和引导页](#launch_and_tutorial_pages)
 	- [Tabbar和NavigationBar相关](#tabbar_and_navigationbar)
 	- [Table相关](#tableview)
 	- [HUD与Toast](#hud-and-toast)
@@ -205,6 +205,8 @@
 
 # <a name="permissions"></a>权限
 
+* [ClusterPrePermissions](https://github.com/rsattar/ClusterPrePermissions): 在系统询问用户前展示开发者自己的请求许可,从而减少了用户跳出应用进行设置的几率.同时应用可以再次选择一个合适的机会请求用户许可.
+
 # <a name="url-scheme"></a>URL Scheme
 
 # <a name="text"></a>文本
@@ -228,8 +230,9 @@
 
 * [DateTools](https://github.com/MatthewYork/DateTools): 一款ObjC中简化日期和时间处理的工具.
 
-### <a name="tutorial_pages"></a>引导页
+### <a name="launch_and_tutorial_pages"></a>启动页和引导页
 
+* [XHLaunchAd](https://github.com/CoderZhuXH/XHLaunchAd): 开屏广告,启动广告的解决方案,支持静态/动态图片广告,mp4视频广告,全屏/半屏广告.
 * [Onboard](https://github.com/mamaral/Onboard): 一个简单创建漂亮有吸引力引导页的第三方框架.
 
 ### <a name="tabbar_and_navigationbar"></a>Tabbar和NavigationBar相关
@@ -239,6 +242,7 @@
 * [TLYShyNavBar](https://github.com/telly/TLYShyNavBar): 一款实现自动滚动的导航条的控件框架.
 * [HBDNavigationBar](https://github.com/listenzz/HBDNavigationBar): 一款随着页面切换而平滑地过渡到目的状态的UINavigationBar控件.
 * [NNNavigationBar](https://github.com/amisare/NNNavigationBar):另一个背景渐变平滑过渡的UINavigationBar控件.
+* [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension): JZNavigationExtension为UINavigationController集成了许多方便的功能.
 
 ### <a name="tableview"></a>Table相关
 
