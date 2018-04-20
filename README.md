@@ -62,6 +62,8 @@
 	- [动画](#animation)
 	- [效果](#effect)
 	- [定制化控件](#customized_widget)
+* [App更新提示](#app-update-tips)
+* [测试调试](#test-and-debug)
 * [分析](#analytics)
 * [支付](#payments)
 * [产品化工具](#products)
@@ -72,8 +74,6 @@
 * [逆向](#reverse)
 * [数据结构/算法](#algorithm)
 * [机器学习](#machine-learning)
-* [App更新提示](#app-update-tips)
-* [测试调试](#test-and-debug)
 
 
 ---
@@ -311,6 +311,12 @@
 * [VBFPopFlatButton](https://github.com/victorBaro/VBFPopFlatButton): 使用Facebook POP引擎实现了9种扁平化按钮和2种动画,比如前进,后退,菜单,下载,分享,添加,减少,关闭以及向上的箭头等.
 * [PYSearch](https://github.com/ko1o/PYSearch): iOS中一款优雅的搜索控制器.
 
+# <a name="app-update-tips"></a>App更新提示
+
+* [Harpy](https://github.com/ArtSabintsev/Harpy): 版本更新工具,通知用户有新版本可升级.
+
+# <a name="test-and-debug"></a>测试调试
+
 # <a name="analytics"></a>分析
 
 # <a name="payments"></a>支付
@@ -339,8 +345,4 @@
 
 # <a name="machine-learning"></a>机器学习
 
-# <a name="app-update-tips"></a>App更新提示
 
-* [Harpy](https://github.com/ArtSabintsev/Harpy): 版本更新工具,通知用户有新版本可升级.
-
-# <a name="test-and-debug"></a>测试调试
