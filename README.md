@@ -50,12 +50,16 @@
 * [文本](#text)
 * [UI](#ui)
 	- [布局](#layout)
-	- [Tabbar相关](#tabbar)
+	- [引导页](#tutorial_pages)
+	- [Tabbar和NavigationBar相关](#tabbar_and_navigationbar)
 	- [Table相关](#tableview)
 	- [HUD与Toast](#hud-and-toast)
 	- [PopView](#pop)
+	- [进度条](#progress)
+	- [日历](#calendar)
 	- [键盘与输入法](#keyboard)
 	- [动画](#animation)
+	- [效果](#effect)
 	- [定制化控件](#customized_widget)
 * [分析](#analytics)
 * [支付](#payments)
@@ -77,6 +81,8 @@
 
 # <a name="data-saved"></a>数据存储
 
+* [SAMKeychain](https://github.com/soffes/SAMKeychain): 一款使用系统钥匙串对可获得账户获取设置删除密码的iOS简单封装的框架.
+
 ### <a name="cache"></a>缓存
 
 * [YYCache](https://github.com/ibireme/YYCache): 高性能iOS缓存框架.
@@ -88,6 +94,7 @@
 # <a name="charts"></a>图表
 
 * [AAChartKit](https://github.com/AAChartModel/AAChartKit): 流行的开源前端图表库Highcharts的基础上,封装的面向对象的,一组简单易用,极其精美的图表绘制控件.
+* [PNChart](https://github.com/kevinzhow/PNChart): 一个简洁高效的iOS图表库.
 
 # <a name="database"></a>数据库
 
@@ -111,7 +118,8 @@
 
 # <a name="files"></a>文件
 
-* [ZipArchive](https://github.com/ZipArchive/ZipArchive): 一款针对iOS,macOS和tvOS的简单实用的压缩解压缩的第三方框架.
+* [ZipArchive](https://github.com/ZipArchive/ZipArchive): SSZipArchive是一款针对iOS,macOS和tvOS的简单实用的压缩解压缩的第三方框架.
+* [FCFileManager](https://github.com/fabiocaccamo/FCFileManager): NSFileManager之外的iOS文件管理器,用于简化文件管理.
 
 # <a name="format"></a>格式解析
 
@@ -128,6 +136,7 @@
 # <a name="logging"></a>日志
 
 * [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack): 一个快速简单好用的日志框架.
+* [NSLogger](https://github.com/fpillet/NSLogger): 一款用来监控macOS,iOS和Android app的日志的工具,默认接受电脑所在局域网发出的所有日志,在macOS上运行NSLogger Viewer,来替代Xcode,Android Studio和Eclipse终端.
 
 # <a name="maps"></a>地图
 
@@ -143,6 +152,8 @@
 * [LKImageKit](https://github.com/Tencent/LKImageKit): 腾讯开源的一个高性能的图片框架.包括了图片控件,图片下载,内存缓存,磁盘缓存,图片解码,图片处理等一系列能力.
 * [SDWebImage](https://github.com/rs/SDWebImage): 一款知名高效的图片加载框架,其使用内存缓存,磁盘缓存和下载的方式加快了图片处理的效率.
 * [RSKImageCropper](https://github.com/ruslanskorb/RSKImageCropper): 一个iOS的图片切片器,适用于头像的场景.
+* [TZImagePickerController](https://github.com/banchichen/TZImagePickerController): 一个支持多选,选原图和视频的图片选择器,同时有预览,裁剪功能.
+* [GPUImage](https://github.com/BradLarson/GPUImage): 基于GPU的图像和视频处理一个开源的iOS框架,可以处理图像,给图片和视频增加滤镜等.
 
 ### <a name="audio"></a>音频
 
@@ -158,6 +169,8 @@
 ### <a name="pdf"></a>PDF
 
 ### <a name="GIF"></a>GIF
+
+* [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage): 一个执行GIF动画的引擎库.
 
 ### <a name="VR"></a>VR
 
@@ -180,6 +193,9 @@
 
 # <a name="networking-test"></a>网络测试
 
+* [Reachability](https://github.com/tonymillion/Reachability): 代替原生Reachability类的解决方案,目前通过不了审核.
+* [RealReachability](https://github.com/dustturtle/RealReachability): 另外一个实际网络检测的解决方案.
+
 # <a name="push-notifications"></a>推送通知
 
 # <a name="passbook"></a>Passbook
@@ -198,23 +214,34 @@
 
 * [YYKit](https://github.com/ibireme/YYKit): YYKit是一组功能丰富的iOS组件,包含 [YYModel](https://github.com/ibireme/YYModel) [YYCache](https://github.com/ibireme/YYCache) [YYImage](https://github.com/ibireme/YYImage) [YYWebImage](https://github.com/ibireme/YYWebImage) [YYText](https://github.com/ibireme/YYText) [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) [YYCategories](https://github.com/ibireme/YYCategories) 独立组件.
 * [QMUI](https://github.com/QMUI/QMUI_iOS): QMUI iOS是一个致力于提高项目UI开发效率的解决方案.
+* [JKCategories](https://github.com/shaojiankui/JKCategories): 扩展iOS框架的类别集合.
 
 ### <a name="layout"></a>布局
 
 * [Masonry](https://github.com/SnapKit/Masonry): 应用最广的简单方便的自动布局框架.
 
-### <a name="tabbar"></a>Tabbar相关
+### <a name="tutorial_pages"></a>引导页
+
+* [Onboard](https://github.com/mamaral/Onboard): 一个简单创建漂亮有吸引力引导页的第三方框架.
+
+### <a name="tabbar_and_navigationbar"></a>Tabbar和NavigationBar相关
 
 * [CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController): 一个自定义的TabBarController框架,支持高度自定义,功能强大,使用起来非常方便.
+* [KMNavigationBarTransition](https://github.com/MoZhouqi/KMNavigationBarTransition): 一个用来统一管理导航栏转场以及当push或者pop的时候使动画效果更加顺滑的通用库.
+* [TLYShyNavBar](https://github.com/telly/TLYShyNavBar): 一款实现自动滚动的导航条的控件框架.
 
 ### <a name="tableview"></a>Table相关
 
 * [IGListKit](https://github.com/Instagram/IGListKit): 一款Instagram工程师开发的快速构建且滑动流畅的CollectView框架.
 * [STDTableView](https://github.com/XuQibin/STDTableView): 基于UITableView的封装,实现了一套High Level的API.
+* [SWTableViewCell](https://github.com/CEWendel/SWTableViewCell): 一款简单易用的UITableViewCell子类, 扩展了左右滑动显示更多功能按钮.
+* [MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell): 另外一款扩展左右滑动显示工具按钮的UITableViewCell子类.
 * [MJRefresh](https://github.com/CoderMJLee/MJRefresh): 一款简单好用的下拉刷新的第三方框架.
 * [ODRefreshControl](https://github.com/Sephiroth87/ODRefreshControl): 一款对UIScrollView下拉刷新的控件.
+* [SVPullToRefresh](https://github.com/samvermette/SVPullToRefresh): 一行代码实现UIScrollView下拉刷新和无限滚动.
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet): UITableView/UICollectionView空数据提示内容显示的控件.
 * [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTableViewPlaceHolder): 一行代码完成'空TableView占位视图'管理的控件.
+* [CSStickyHeaderFlowLayout](https://github.com/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout): 在UICollectionView上实现StickyHeader效果.
 
 ### <a name="hud-and-toast"></a>HUD与Toast
 
@@ -224,28 +251,51 @@
 * [RKDropdownAlert](https://github.com/cwRichardKim/RKDropdownAlert): 一个非常简单的向下弹出Alert视图的控件,灵感来自于SVProgressHUD.
 * [JDStatusBarNotification](https://github.com/calimarkus/JDStatusBarNotification): 一个简单,可定制的状态栏显示通知控件.
 * [CWStatusBarNotification](https://github.com/cezarywojcik/CWStatusBarNotification): 另外一个基于文本的状态栏通知控件.
+* [TSMessages](https://github.com/KrauseFx/TSMessages): 从屏幕顶部显示通知视图的非HUD风格的iOS提示框,目前该项目不再更新.
+* [RMessage](https://github.com/donileo/RMessage): TSMessages的替代方案.
+* [CRToast](https://github.com/cruffenach/CRToast): 一个简单的Toast显示通知控件.
 
 ### <a name="pop"></a>PopView
 
 * [PSTAlertController](https://github.com/steipete/PSTAlertController): 向下兼容iOS7使用UIAlertController的第三方框架.
 * [MMPopupView](https://github.com/adad184/MMPopupView): 一款简单的创建PopUpView的Pop-Up控件.
+* [IGLDropDownMenu](https://github.com/bestwnh/IGLDropDownMenu): 一种iOS点击下拉菜单样式,动画效果很绚丽.
+
+### <a name="progress"></a>进度条
+
+* [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress): 一个UIWebView的显示进度条的第三方框架.
+
+### <a name="calendar"></a>日历
+
+* [FSCalendar](https://github.com/WenchaoD/FSCalendar): FSCalendar是一款开源iOS日历控件,支持横向,纵向滑动模式,全屏模式,带有子标题,事件设置等功能.
+* [JTCalendar](https://github.com/jonathantribouharet/JTCalendar): 一款简单可自定义的日历控件.
 
 ### <a name="keyboard"></a>键盘与输入法
 
 * [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager): 解决弹起键盘遮盖输入框的问题的便捷方案.
 * [TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding): 另外一个解决弹起键盘躲避文本框遮挡的通用方案.
+* [SlackTextViewController](https://github.com/slackhq/SlackTextViewController): 功能强大易用的TableView和CollectionView下的文字输入解决方案,具有文字输入框高度自适应,自动输入,复制单元格内容等特点.
+* [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit): 一个iOS icon字体库,支持Font-Awesome,Foundation icons,Zocial以及ionicons.其字体即矢量图,可设置曲线动画渐变.
 
 ### <a name="animation"></a>动画
 
 * [lottie-ios](https://github.com/airbnb/lottie-ios): Airbnb开源的将AE动画效果转化为iOS原生动画的库.
 * [JazzHands](https://github.com/IFTTT/JazzHands):一款简单的基于关键帧动画的框架,动画可以通过手势,scrollview,KVO和ReactiveCocoa控制.
+* [iCarousel](https://github.com/nicklockwood/iCarousel): 一个简单,可自定义的数据驱动的3D轮播框架,旨在简化在iPhone,iPad和macOS上实现各种类型的轮播操作.
+* [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView): 一个比UIActivityIndicatorView更好看的显示加载进度的控件.
+
+### <a name="effect"></a>效果
+
+* [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture): 一个丝滑的全屏滑动返回手势.
 * [FXBlurView](https://github.com/nicklockwood/FXBlurView): 实现毛玻璃效果的View视图,目前该项目不再更新.
+* [ZCAnimatedLabel](https://github.com/overboming/ZCAnimatedLabel): 一款类似UILabel的带有出现消失动画的视图控件.
 
 ### <a name="customized_widget"></a>定制化控件
 
 * [STPickerView](https://github.com/STShenZhaoliang/STPickerView): 一个多功能的选择器,有城市选择,日期选择和单数组源自定的功能,方便大家的使用,低耦合,易扩展.
 * [JKCountDownButton](https://github.com/shaojiankui/JKCountDownButton):iOS倒计时按钮,UIButton子类实现,常常用于注册等发送验证码的时候进行倒计时操作.
-* [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView): 一个比UIActivityIndicatorView更好看的显示加载进度的控件.
+* [VBFPopFlatButton](https://github.com/victorBaro/VBFPopFlatButton): 使用Facebook POP引擎实现了9种扁平化按钮和2种动画,比如前进,后退,菜单,下载,分享,添加,减少,关闭以及向上的箭头等.
+* [PYSearch](https://github.com/ko1o/PYSearch): iOS中一款优雅的搜索控制器.
 
 # <a name="analytics"></a>分析
 
@@ -274,5 +324,7 @@
 # <a name="machine-learning"></a>机器学习
 
 # <a name="app-update-tips"></a>App更新提示
+
+* [Harpy](https://github.com/ArtSabintsev/Harpy): 版本更新工具,通知用户有新版本可升级.
 
 # <a name="test-and-debug"></a>测试调试
