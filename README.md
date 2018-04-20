@@ -50,6 +50,7 @@
 * [文本](#text)
 * [UI](#ui)
 	- [布局](#layout)
+	- [日期与时间](#date_and_time)
 	- [引导页](#tutorial_pages)
 	- [Tabbar和NavigationBar相关](#tabbar_and_navigationbar)
 	- [Table相关](#tableview)
@@ -154,6 +155,8 @@
 * [RSKImageCropper](https://github.com/ruslanskorb/RSKImageCropper): 一个iOS的图片切片器,适用于头像的场景.
 * [TZImagePickerController](https://github.com/banchichen/TZImagePickerController): 一个支持多选,选原图和视频的图片选择器,同时有预览,裁剪功能.
 * [GPUImage](https://github.com/BradLarson/GPUImage): 基于GPU的图像和视频处理一个开源的iOS框架,可以处理图像,给图片和视频增加滤镜等.
+* [ZLPhotoBrowser](https://github.com/longitachi/ZLPhotoBrowser): 方便易用的相册多选框架,支持预览/相册内拍照及录视频,拖拽/滑动选择,3DTouch预览,编辑裁剪图片/视频,导出视频,支持多语言国际化,在线下载iCloud端图片,支持预览网络及本地图片/视频.
+* [MFPictureBrowser](https://github.com/GodzzZZZ/MFPictureBrowser): 一个集成简单交互效果不错的图片浏览器.
 
 ### <a name="audio"></a>音频
 
@@ -219,6 +222,11 @@
 ### <a name="layout"></a>布局
 
 * [Masonry](https://github.com/SnapKit/Masonry): 应用最广的简单方便的自动布局框架.
+* [SDAutoLayout](https://github.com/gsdios/SDAutoLayout): 号称一行代码搞定自动布局!支持Cell和Tableview高度自适应,Label和ScrollView内容自适应,致力于做最简单易用的AutoLayout库.
+
+### <a name="date_and_time"></a>日期与时间
+
+* [DateTools](https://github.com/MatthewYork/DateTools): 一款ObjC中简化日期和时间处理的工具.
 
 ### <a name="tutorial_pages"></a>引导页
 
@@ -229,6 +237,8 @@
 * [CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController): 一个自定义的TabBarController框架,支持高度自定义,功能强大,使用起来非常方便.
 * [KMNavigationBarTransition](https://github.com/MoZhouqi/KMNavigationBarTransition): 一个用来统一管理导航栏转场以及当push或者pop的时候使动画效果更加顺滑的通用库.
 * [TLYShyNavBar](https://github.com/telly/TLYShyNavBar): 一款实现自动滚动的导航条的控件框架.
+* [HBDNavigationBar](https://github.com/listenzz/HBDNavigationBar): 一款随着页面切换而平滑地过渡到目的状态的UINavigationBar控件.
+* [NNNavigationBar](https://github.com/amisare/NNNavigationBar):另一个背景渐变平滑过渡的UINavigationBar控件.
 
 ### <a name="tableview"></a>Table相关
 
@@ -303,9 +313,11 @@
 
 # <a name="products"></a>产品化工具
 
+* [CTMediator](https://github.com/casatwy/CTMediator): 针对iOS组件化的一个架构实施方案,可以用来实现组件解耦,功能强大,[功能介绍点击这里](https://casatwy.com/modulization_in_action.html).
+
 # <a name="other"></a>其他
 
-* [DateTools](https://github.com/MatthewYork/DateTools): 一款ObjC中简化日期和时间处理的工具.
+* [RJIterator](https://github.com/renjinkui2719/RJIterator): 生成器与迭代器的ObjC实现,在异步调用方面的运用功能强大.
 
 # <a name="utility"></a>实用工具
 
