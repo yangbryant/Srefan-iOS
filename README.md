@@ -244,6 +244,7 @@
 * [HBDNavigationBar](https://github.com/listenzz/HBDNavigationBar): 一款随着页面切换而平滑地过渡到目的状态的UINavigationBar控件.
 * [NNNavigationBar](https://github.com/amisare/NNNavigationBar):另一个背景渐变平滑过渡的UINavigationBar控件.
 * [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension): JZNavigationExtension为UINavigationController集成了许多方便的功能.
+* [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController): 隐式的让每个ViewController都有NavigationBar.
 
 ### <a name="tableview"></a>Table相关
 
