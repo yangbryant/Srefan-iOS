@@ -145,6 +145,7 @@
 
 * [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser): 一款应用内的Web浏览器模块.
 * [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge): 用于在WKWebViews/UIWebViews/WebViews中的ObjC和JavaScript之间发送消息的iOS/OSX桥接器.
+* [RxWebViewController](https://github.com/Roxasora/RxWebViewController): 实现类似微信的webView导航效果,包括进度条,左滑返回上个网页或者直接关闭,就像UINavigationController.
 
 # <a name="media"></a>多媒体
 
@@ -274,6 +275,7 @@
 * [PSTAlertController](https://github.com/steipete/PSTAlertController): 向下兼容iOS7使用UIAlertController的第三方框架.
 * [MMPopupView](https://github.com/adad184/MMPopupView): 一款简单的创建PopUpView的Pop-Up控件.
 * [IGLDropDownMenu](https://github.com/bestwnh/IGLDropDownMenu): 一种iOS点击下拉菜单样式,动画效果很绚丽.
+* [WSCoachMarksView](https://github.com/workshirt/WSCoachMarksView): iOS类用来在现有界面上浮动出一个圆角的提示信息框.
 
 ### <a name="progress"></a>进度条
 
@@ -294,6 +296,7 @@
 ### <a name="animation"></a>动画
 
 * [lottie-ios](https://github.com/airbnb/lottie-ios): Airbnb开源的将AE动画效果转化为iOS原生动画的库.
+* [pop](https://github.com/facebook/pop): Facebook开源的基于物理交互的扩展动画库.
 * [JazzHands](https://github.com/IFTTT/JazzHands):一款简单的基于关键帧动画的框架,动画可以通过手势,scrollview,KVO和ReactiveCocoa控制.
 * [iCarousel](https://github.com/nicklockwood/iCarousel): 一个简单,可自定义的数据驱动的3D轮播框架,旨在简化在iPhone,iPad和macOS上实现各种类型的轮播操作.
 * [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView): 一个比UIActivityIndicatorView更好看的显示加载进度的控件.
@@ -324,6 +327,7 @@
 # <a name="products"></a>产品化工具
 
 * [CTMediator](https://github.com/casatwy/CTMediator): 针对iOS组件化的一个架构实施方案,可以用来实现组件解耦,功能强大,[功能介绍点击这里](https://casatwy.com/modulization_in_action.html).
+* [AppDevKit](https://github.com/yahoo/AppDevKit): yahoo开源的一套iOS开发套件.
 
 # <a name="other"></a>其他
 
