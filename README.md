@@ -96,6 +96,8 @@
 
 * [AAChartKit](https://github.com/AAChartModel/AAChartKit): 流行的开源前端图表库Highcharts的基础上,封装的面向对象的,一组简单易用,极其精美的图表绘制控件.
 * [PNChart](https://github.com/kevinzhow/PNChart): 一个简洁高效的iOS图表库.
+* [ZFChart](https://github.com/Zirkfied/ZFChart): 一款简单好用的图表库,有柱状,线状,饼图,波浪,雷达,圆环等类型.
+* [BEMSimpleLineGraph](https://github.com/Boris-Em/BEMSimpleLineGraph): 一款优雅的折线图框架.
 
 # <a name="database"></a>数据库
 
@@ -110,6 +112,8 @@
 ### <a name="motion"></a>动作
 
 ### <a name="bluetooth"></a>蓝牙
+
+* [BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth): 简单易用的蓝牙库,基于CoreBluetooth的封装.
 
 ### <a name="location"></a>位置
 
@@ -158,6 +162,8 @@
 * [GPUImage](https://github.com/BradLarson/GPUImage): 基于GPU的图像和视频处理一个开源的iOS框架,可以处理图像,给图片和视频增加滤镜等.
 * [ZLPhotoBrowser](https://github.com/longitachi/ZLPhotoBrowser): 方便易用的相册多选框架,支持预览/相册内拍照及录视频,拖拽/滑动选择,3DTouch预览,编辑裁剪图片/视频,导出视频,支持多语言国际化,在线下载iCloud端图片,支持预览网络及本地图片/视频.
 * [MFPictureBrowser](https://github.com/GodzzZZZ/MFPictureBrowser): 一个集成简单交互效果不错的图片浏览器.
+* [SVGKit](https://github.com/SVGKit/SVGKit): 用本地动画库渲染SVG矢量图片显示和交互的第三方框架.
+* [MWPhotoBrowser](https://github.com/mwaterfall/MWPhotoBrowser): 一个简单的iOS图片视频浏览器,支持网格视图,标题信息等.
 
 ### <a name="audio"></a>音频
 
@@ -188,6 +194,7 @@
 
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking): 一个轻量级的iOS网络通信类库.
 * [YTKNetwork](https://github.com/yuantiku/YTKNetwork): 基于AFNetworking封装的iOS网络库,其实现了一套High Level的API,提供了更高层次的网络访问抽象.
+* [PPNetworkHelper](https://github.com/jkpang/PPNetworkHelper): 对AFNetworking 3.x与YYCache的二次封装.
     
 # <a name="socket"></a>Socket
 
@@ -219,7 +226,7 @@
 # <a name="ui"></a>UI
 
 * [YYKit](https://github.com/ibireme/YYKit): YYKit是一组功能丰富的iOS组件,包含 [YYModel](https://github.com/ibireme/YYModel) [YYCache](https://github.com/ibireme/YYCache) [YYImage](https://github.com/ibireme/YYImage) [YYWebImage](https://github.com/ibireme/YYWebImage) [YYText](https://github.com/ibireme/YYText) [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) [YYCategories](https://github.com/ibireme/YYCategories) 独立组件.
-* [QMUI](https://github.com/QMUI/QMUI_iOS): QMUI iOS是一个致力于提高项目UI开发效率的解决方案.
+* [QMUIKit](https://github.com/QMUI/QMUI_iOS): QMUI iOS是一个致力于提高项目UI开发效率的解决方案.
 * [JKCategories](https://github.com/shaojiankui/JKCategories): 扩展iOS框架的类别集合.
 
 ### <a name="layout"></a>布局
@@ -245,6 +252,9 @@
 * [NNNavigationBar](https://github.com/amisare/NNNavigationBar):另一个背景渐变平滑过渡的UINavigationBar控件.
 * [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension): JZNavigationExtension为UINavigationController集成了许多方便的功能.
 * [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController): 隐式的让每个ViewController都有NavigationBar.
+* [WMPageController](https://github.com/wangmchn/WMPageController): 一个顶部Tab的二级导航页面视图框架,类似网易新闻首页效果.
+* [DLSlideView](https://github.com/agdsdl/DLSlideView): 另外一个顶部Tab的二级导航页面视图框架.
+* [VTMagic](https://github.com/tianzhuo112/VTMagic): 第三个二级导航页面视图框架.
 
 ### <a name="tableview"></a>Table相关
 
@@ -270,6 +280,8 @@
 * [TSMessages](https://github.com/KrauseFx/TSMessages): 从屏幕顶部显示通知视图的非HUD风格的iOS提示框,目前该项目不再更新.
 * [RMessage](https://github.com/donileo/RMessage): TSMessages的替代方案.
 * [CRToast](https://github.com/cruffenach/CRToast): 一个简单的Toast显示通知控件.
+* [SCLAlertView-Objective-C](https://github.com/dogo/SCLAlertView): 一个漂亮的AlertView控件.
+* [Toast](https://github.com/scalessec/Toast): 添加Toast通知到UIView上的ObjC类别.
 
 ### <a name="pop"></a>PopView
 
@@ -281,6 +293,9 @@
 ### <a name="progress"></a>进度条
 
 * [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress): 一个UIWebView的显示进度条的第三方框架.
+* [M13ProgressSuite](https://github.com/Marxon13/M13ProgressSuite): 一个显示进度信息的工具组件.
+* [ASProgressPopupView](https://github.com/alskipp/ASProgressPopupView): 一个可自定义的显示百分比PopView的进度条控件.
+* [ASValueTrackingSlider](https://github.com/alskipp/ASValueTrackingSlider): 一个可自定义的显示实时值PopView的UISlider控件.
 
 ### <a name="calendar"></a>日历
 
@@ -314,12 +329,17 @@
 * [JKCountDownButton](https://github.com/shaojiankui/JKCountDownButton):iOS倒计时按钮,UIButton子类实现,常常用于注册等发送验证码的时候进行倒计时操作.
 * [VBFPopFlatButton](https://github.com/victorBaro/VBFPopFlatButton): 使用Facebook POP引擎实现了9种扁平化按钮和2种动画,比如前进,后退,菜单,下载,分享,添加,减少,关闭以及向上的箭头等.
 * [PYSearch](https://github.com/ko1o/PYSearch): iOS中一款优雅的搜索控制器.
+* [DLRadioButton](https://github.com/DavydLiu/DLRadioButton): 一个高度自定义的iOS单选按钮控件.
+* [FSTextView](https://github.com/lifution/FSTextView): 继承于UITextView的自定义TextView,带placeholder和可限制最大输入字符数.
 
 # <a name="app-update-tips"></a>App更新提示
 
 * [Harpy](https://github.com/ArtSabintsev/Harpy): 版本更新工具,通知用户有新版本可升级.
 
 # <a name="test-and-debug"></a>测试调试
+
+* [SandBoxPreviewTool](https://github.com/wjyx1lalala/SandBoxPreviewTool): 一行代码查看iOS磁盘沙盒文件.
+* [Bugly](https://bugly.qq.com/v2/index): 腾讯Bugly,为移动开发者提供专业的异常上报和运营统计,帮助开发者快速发现并解决异常,同时掌握产品运营动态,及时跟进用户反馈.
 
 # <a name="analytics"></a>分析
 
