@@ -57,6 +57,7 @@
 	- [HUD与Toast](#hud-and-toast)
 	- [PopView](#pop)
 	- [进度条](#progress)
+	- [轮播图](#banner)
 	- [日历](#calendar)
 	- [键盘与输入法](#keyboard)
 	- [动画](#animation)
@@ -152,7 +153,7 @@
 * [RxWebViewController](https://github.com/Roxasora/RxWebViewController): 实现类似微信的webView导航效果,包括进度条,左滑返回上个网页或者直接关闭,就像UINavigationController.
 * [TUSafariActivity](https://github.com/davbeck/TUSafariActivity): 用Safari打开URL连接的UIActivity子类.
 * [ARChromeActivity](https://github.com/alextrob/ARChromeActivity): 用Google Chrome打开URL连接的UIActivity子类.
-* 
+* [XLForm](https://github.com/xmartlabs/XLForm): 创建动态表格视图表单最灵活最强大的iOS库.
 
 # <a name="media"></a>多媒体
 
@@ -198,6 +199,7 @@
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking): 一个轻量级的iOS网络通信类库.
 * [YTKNetwork](https://github.com/yuantiku/YTKNetwork): 基于AFNetworking封装的iOS网络库,其实现了一套High Level的API,提供了更高层次的网络访问抽象.
 * [PPNetworkHelper](https://github.com/jkpang/PPNetworkHelper): 对AFNetworking 3.x与YYCache的二次封装.
+* [BANetManager](https://github.com/boai/BANetManager): 基于AFNetworking 3.x版本的封装.
     
 # <a name="socket"></a>Socket
 
@@ -300,6 +302,10 @@
 * [ASProgressPopupView](https://github.com/alskipp/ASProgressPopupView): 一个可自定义的显示百分比PopView的进度条控件.
 * [ASValueTrackingSlider](https://github.com/alskipp/ASValueTrackingSlider): 一个可自定义的显示实时值PopView的UISlider控件.
 * [DACircularProgress](https://github.com/danielamitay/DACircularProgress): 一个圆形的进度信息UIView控件.
+
+### <a name="banner"></a>轮播图
+
+* [YJBannerView](https://github.com/stackhou/YJBannerView): 使用简单功能丰富的轮播控件,基于UICollectionView实现,多种场景均支持使用.
 
 ### <a name="calendar"></a>日历
 
