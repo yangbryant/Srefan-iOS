@@ -175,6 +175,7 @@
 
 * [ZFPlayer](https://github.com/renzifeng/ZFPlayer): 一款基于AVPlayer,支持竖屏,横屏(横屏可锁定屏幕方向),上下滑动调节音量、屏幕亮度，左右滑动调节播放进度的播放器.
 * [JPVideoPlayer](https://github.com/newyjp/JPVideoPlayer): 在UITableViewCell内自动播放在线视频和缓存视频.
+* [SJVideoPlayer](https://github.com/changsanjiang/SJVideoPlayer): 基于AVPlayer的视频播放器,支持截屏,创建Gif,导出片段,显示提示文本.
 
 ### <a name="stream"></a>流媒体
 
@@ -256,6 +257,7 @@
 * [HBDNavigationBar](https://github.com/listenzz/HBDNavigationBar): 一款随着页面切换而平滑地过渡到目的状态的UINavigationBar控件.
 * [NNNavigationBar](https://github.com/amisare/NNNavigationBar):另一个背景渐变平滑过渡的UINavigationBar控件.
 * [JZNavigationExtension](https://github.com/JazysYu/JZNavigationExtension): JZNavigationExtension为UINavigationController集成了许多方便的功能.
+* [YPNavigationBarTransition](https://github.com/yiplee/YPNavigationBarTransition): 一个功能完整的UINavigationBar框架,过渡效果更平滑.
 * [RTRootNavigationController](https://github.com/rickytan/RTRootNavigationController): 隐式的让每个ViewController都有NavigationBar.
 * [WMPageController](https://github.com/wangmchn/WMPageController): 一个顶部Tab的二级导航页面视图框架,类似网易新闻首页效果.
 * [DLSlideView](https://github.com/agdsdl/DLSlideView): 另外一个顶部Tab的二级导航页面视图框架.
