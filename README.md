@@ -150,6 +150,9 @@
 * [KINWebBrowser](https://github.com/dfmuir/KINWebBrowser): 一款应用内的Web浏览器模块.
 * [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge): 用于在WKWebViews/UIWebViews/WebViews中的ObjC和JavaScript之间发送消息的iOS/OSX桥接器.
 * [RxWebViewController](https://github.com/Roxasora/RxWebViewController): 实现类似微信的webView导航效果,包括进度条,左滑返回上个网页或者直接关闭,就像UINavigationController.
+* [TUSafariActivity](https://github.com/davbeck/TUSafariActivity): 用Safari打开URL连接的UIActivity子类.
+* [ARChromeActivity](https://github.com/alextrob/ARChromeActivity): 用Google Chrome打开URL连接的UIActivity子类.
+* 
 
 # <a name="media"></a>多媒体
 
@@ -296,6 +299,7 @@
 * [M13ProgressSuite](https://github.com/Marxon13/M13ProgressSuite): 一个显示进度信息的工具组件.
 * [ASProgressPopupView](https://github.com/alskipp/ASProgressPopupView): 一个可自定义的显示百分比PopView的进度条控件.
 * [ASValueTrackingSlider](https://github.com/alskipp/ASValueTrackingSlider): 一个可自定义的显示实时值PopView的UISlider控件.
+* [DACircularProgress](https://github.com/danielamitay/DACircularProgress): 一个圆形的进度信息UIView控件.
 
 ### <a name="calendar"></a>日历
 
