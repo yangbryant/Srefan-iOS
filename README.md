@@ -234,6 +234,7 @@
 * [YYKit](https://github.com/ibireme/YYKit): YYKit是一组功能丰富的iOS组件,包含 [YYModel](https://github.com/ibireme/YYModel) [YYCache](https://github.com/ibireme/YYCache) [YYImage](https://github.com/ibireme/YYImage) [YYWebImage](https://github.com/ibireme/YYWebImage) [YYText](https://github.com/ibireme/YYText) [YYKeyboardManager](https://github.com/ibireme/YYKeyboardManager) [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) [YYAsyncLayer](https://github.com/ibireme/YYAsyncLayer) [YYCategories](https://github.com/ibireme/YYCategories) 独立组件.
 * [QMUIKit](https://github.com/QMUI/QMUI_iOS): QMUI iOS是一个致力于提高项目UI开发效率的解决方案.
 * [JKCategories](https://github.com/shaojiankui/JKCategories): 扩展iOS框架的类别集合.
+* [VirtualView-iOS](https://github.com/alibaba/VirtualView-iOS): 阿里开源的动态化创建和发布UI组件的方案.
 
 ### <a name="layout"></a>布局
 
@@ -365,6 +366,7 @@
 # <a name="other"></a>其他
 
 * [RJIterator](https://github.com/renjinkui2719/RJIterator): 生成器与迭代器的ObjC实现,在异步调用方面的运用功能强大.
+* [rubicon-objc](https://github.com/pybee/rubicon-objc): Python和ObjC语言之间的桥接器.
 
 # <a name="utility"></a>实用工具
 
