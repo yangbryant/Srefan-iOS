@@ -38,6 +38,7 @@
 	- [VR](#VR)
 	- [AR](#AR)
 	- [二维码](#qrcode)
+	- [图像识别](#OCR)
 * [消息](#messaging)
 * [网络](#networking)
 * [Socket](#socket)
@@ -193,6 +194,9 @@
 
 ### <a name="qrcode"></a>二维码
 * [LBXScan](https://github.com/MxABC/LBXScan):基于iOS原生扫描框架开发的扫描工具封装，其中包括微信、QQ、支付宝等软件的扫描页面实现.
+
+### <a name="OCR"></a>OCR
+* [TesseractOCRiOS](https://github.com/tesseract-ocr/tessdata):将图像的文字转化成为字符的三方库，需要引入需要的识别字库，通常用到的只是字母数字字库，汉字库体量很大，在工程中创建一个名为“tessdata”的文件夹，将字库放到文件夹下，即可开始使用.
 
 # <a name="messaging"></a>消息
 
