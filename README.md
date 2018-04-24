@@ -358,6 +358,8 @@
 
 * [SandBoxPreviewTool](https://github.com/wjyx1lalala/SandBoxPreviewTool): 一行代码查看iOS磁盘沙盒文件.
 * [Bugly](https://bugly.qq.com/v2/index): 腾讯Bugly,为移动开发者提供专业的异常上报和运营统计,帮助开发者快速发现并解决异常,同时掌握产品运营动态,及时跟进用户反馈.
+* [MLeaksFinder](https://github.com/Tencent/MLeaksFinder): 腾讯开源的iOS平台的自动内存泄漏检测工具.
+* [DEPLOYMATE](http://www.deploymateapp.com/): 检测不可用的、废弃的API的工具,<收费,未开源>.
 
 # <a name="analytics"></a>分析
 
