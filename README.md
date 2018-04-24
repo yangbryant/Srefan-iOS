@@ -192,6 +192,7 @@
 ### <a name="AR"></a>AR
 
 ### <a name="qrcode"></a>二维码
+* [LBXScan](https://github.com/MxABC/LBXScan):基于iOS原生扫描框架开发的扫描工具封装，其中包括微信、QQ、支付宝等软件的扫描页面实现.
 
 # <a name="messaging"></a>消息
 
