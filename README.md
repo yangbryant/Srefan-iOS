@@ -268,6 +268,7 @@
 * [WMPageController](https://github.com/wangmchn/WMPageController): 一个顶部Tab的二级导航页面视图框架,类似网易新闻首页效果.
 * [DLSlideView](https://github.com/agdsdl/DLSlideView): 另外一个顶部Tab的二级导航页面视图框架.
 * [VTMagic](https://github.com/tianzhuo112/VTMagic): 第三个二级导航页面视图框架.
+* [MXSegmentedPager](https://github.com/maxep/MXSegmentedPager): 具有视差页眉的分段页面视图,MXPagerView与HMSegmentedControl相结合,控制页面选择.
 
 ### <a name="tableview"></a>Table相关
 
@@ -281,6 +282,8 @@
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet): UITableView/UICollectionView空数据提示内容显示的控件.
 * [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTableViewPlaceHolder): 一行代码完成'空TableView占位视图'管理的控件.
 * [CSStickyHeaderFlowLayout](https://github.com/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout): 在UICollectionView上实现StickyHeader效果.
+* [MXParallaxHeader](https://github.com/maxep/MXParallaxHeader): 一个简单的UIScrollView Header类.
+* [MXPagerView](https://github.com/lerosua/MXPagerView): 可重用的支持StoryBoard的Pager视图.
 
 ### <a name="hud-and-toast"></a>HUD与Toast
 
@@ -349,6 +352,7 @@
 * [PYSearch](https://github.com/ko1o/PYSearch): iOS中一款优雅的搜索控制器.
 * [DLRadioButton](https://github.com/DavydLiu/DLRadioButton): 一个高度自定义的iOS单选按钮控件.
 * [FSTextView](https://github.com/lifution/FSTextView): 继承于UITextView的自定义TextView,带placeholder和可限制最大输入字符数.
+* [HMSegmentedControl](https://github.com/HeshamMegid/HMSegmentedControl): 模仿Google产品的SegmentedControl的UISegmentedControl自定义控件.
 
 # <a name="app-update-tips"></a>App更新提示
 
